@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  Chetchueng  Patrick </title>
+    <link rel="stylesheet"  href="style.css">
+    <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+</head>
+<body>
+    <div class="hero-header">
+         <div class=" wrapper">
+            <header>
+              <div class="logo">
+                 <i class="fa-solid fa-c"></i>
+                    <div class="logo-text"> Chetchueng Patrick dev </div>
+              
+              </div>
+              <nav>
+                   <div class="togglebtn">
+                       <span></span>
+                       <span></span>
+                       <span></span>
+                   </div>
+                   <ul class=" navlinks">
+                       <li><a href="#"> Learn</a></li>
+                       <li><a href="https://patcelesttechonologie.netlify.app/"> Projects</a></li>
+                       <li><a href="#">Blog</a></li>
+                       
+                   </ul>
+              </nav>
+            </header>
+            <div class="container">
+                 <div class="hero-pic">
+                    <img src="c:\Users\User\Documents\IMG-20230307-WA0002.jpg" alt="profile pic">
+                    </div>
+                    <div class= "hero-text">
+                       <h5>Salut🙂💻 <span class="input">Developpeur web et Mobile</span></h5>
+                       <h1> Chetchueng Patrick</h1>
+                       <p> Je suis un ingénieur en télécommunication en formation à SUP'PTIC . Je Possède une solide expertise en 
+                        développement d'applications web et mobiles, avec des compétences en programmation telles que 
+                        JavaScript, HTML, CSS, React Native, etc. Doté d'une connaissance approfondie des architectures de 
+                        développement d'applications et des bases de données relationnelles et non relationnelles. Fortes 
+                        compétences en gestion de projet, y compris la capacité à gérer plusieurs projets simultanément et à 
+                        travailler en équipe. Passionné par la résolution de problèmes complexes et l'amélioration de l'expérience 
+                        utilisateur.</p>
+                        <div class="btn-group">
+                            <a href="#" class=" btn active"> Telecharger mon Cv</a>
+                            <a href="https://patcelesttechonologie.netlify.app/" class=" btn "> Contact</a>
+                        </div>
+
+                        <div class=" social">
+                            <a href="https://www.facebook.com/patrickloic.chetchuengkamsu/"><i class="fa-brands  fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/patrick-lo%C3%AFc-chetchueng-kamsu-747973272/"><i class="fa-brands  fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/chetchuengai/"><i class="fa-brands  fa-instagram"></i></a>
+                              
+                        </div>
+
+                 </div>
+            </div>
+         </div>
+
+    </div>
+    <!---typed js for typing text effect -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+         /** creating button click show hide navbar **/
+         var togglebtn=document.querySelector(".togglebtn");
+         var nav=document.querySelector(".navlinks");
+         var links=document.querySelector(".navlinks li");
+
+         togglebtn.addEventListener("click", function(){
+                 this.classList.toggle("click");
+                 nav.classList.toggle("open");
+         })
+
+         var typed=new Typed(".input",{
+            strings: ["Developpeur web et Mobile","Ingenieur Telecom","Expert en marketing Digital"],
+            typedSpeed:70,
+            backSpeed:55,
+            loop: true
+
+         })
+    </script>
+</body>
+</html>
